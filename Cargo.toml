@@ -6,4 +6,6 @@ license = "MIT"
 
 [dependencies]
 bevy = { version = "0.12.0", default-features = false, features = ["bevy_asset", "bevy_render"] }
-pxo = "0.1.0"
+image = "0.24.7"
+# Use a fork of the `pxo` since the original uses File and we need to use Read
+pxo = { version = "0.1.0", git = "https://github.com/badcodecat/pxo" }

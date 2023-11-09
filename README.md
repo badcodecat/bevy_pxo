@@ -5,4 +5,4 @@ Thanks to https://github.com/appybara13/pxo for doing all the heavy lifting.
 
 ---
 
-**Not yet ready for use!**
+Right now this only supports loading the first frame of a PXO file as a Image.
