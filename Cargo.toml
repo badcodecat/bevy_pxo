@@ -2,10 +2,9 @@
 name = "bevy_pxo"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
+license = "MIT or Apache-2.0"
 
 [dependencies]
 bevy = { version = "0.12.0", default-features = false, features = ["bevy_asset", "bevy_render"] }
 image = "0.24.7"
-# Use a fork of the `pxo` since the original uses File and we need to use Read
-pxo = { version = "0.1.0", git = "https://github.com/badcodecat/pxo" }
+pxo = "0.2.0"
