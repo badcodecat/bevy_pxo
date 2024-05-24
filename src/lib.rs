@@ -27,7 +27,7 @@ impl AssetLoader for PXOAssetLoader
 				let pxo = pxo::Pxo::load(reader)?;
 				let sprite = pxo::Sprite::from(pxo, pxo::SpriteOptions::default())?;
 				let first_frame = sprite.images[0].clone();
-				let image = Image::from_dynamic(image::DynamicImage::from(first_frame), true);
+				let image = Image::from_dynamic(image::DynamicImage::from(first_frame), true, RenderAssetUsages::RENDER_WORLD);
 				Ok(image)
 			}
 		)
