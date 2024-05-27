@@ -1,5 +1,6 @@
 use bevy::prelude::*;
 use bevy::asset::{AssetLoader,  AsyncReadExt};
+use bevy::render::render_asset::RenderAssetUsages;
 
 pub struct PXOAssetLoader;
 
